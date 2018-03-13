@@ -1,11 +1,8 @@
-lower = int(input("Enter lower range: "))
-upper = int(input("Enter upper range: "))
+lower = int(input("Enter lower range value: "))
+upper = int(input("Enter upper range value: "))
  
-for num in range(lower,upper + 1):
-   # initialize sum
+for num in range(lower,upper + 1))
    sum = 0
- 
-   # find the sum of the cube of each digit
    temp = num
    while temp > 0:
        digit = temp % 10
