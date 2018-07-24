@@ -2,19 +2,19 @@
   int main() {
     int a[10];
     int i;
-    int greatest;
+    int max val;
     for (i = 0; i < 10; i++) 
     {
     	scanf("%d", &a[i]);
     }
-    greatest = a[0];
+    max val = a[0];
     for (i = 0; i < 10; i++) 
     {
-	if (a[i] > greatest) 
+	if (a[i] > max val) 
 	{
-	greatest = a[i];
+	max val = a[i];
     }
     }
-    printf("%d", greatest);
+    printf("%d", max val);
     return 0;
   }
