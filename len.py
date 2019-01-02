@@ -1,2 +1,2 @@
-n=input("Enter a number:")
-print(len(n))
+val=input("Enter a number:")
+print(len(val))
